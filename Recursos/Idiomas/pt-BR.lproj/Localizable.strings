@@ -1,0 +1,177 @@
+/* J7 Rescue — textos em português do Brasil. Os %@ são dados que o app coloca; não mexa neles. */
+
+/* Pasos */
+"paso.0" = "Verificar o seu caso";
+"paso.1" = "Modo de recuperação";
+"paso.2" = "Baixar o iOS";
+"paso.3" = "Calcular o número";
+"paso.4" = "Resgatar";
+"paso.5" = "Primeira inicialização";
+
+/* Dibujo del modo recuperación */
+"rec.1" = "1 · Aperte e solte AUMENTAR volume";
+"rec.2" = "2 · Aperte e solte DIMINUIR volume";
+"rec.3" = "3 · SEGURE o botão lateral (mesmo que apareça a maçã)";
+"rec.4" = "Pronto! Cabo e computador";
+
+/* Dibujo de la casa */
+"casa.abajo" = "Suas fotos e coisas 🔒";
+"casa.sistemanuevo" = "Sistema novo (iOS)";
+"casa.arriba.0" = "iOS (o sistema)";
+"casa.arriba.1" = "iOS antigo ✔ «cabe»";
+"casa.arriba.2" = "vazio… o novo não entra";
+"casa.arriba.3" = "iOS novo ✔";
+"casa.numero" = "número %@";
+
+/* Ventana */
+"sim.banner" = "MODO SIMULAÇÃO · nada disto toca em um iPhone de verdade";
+"btn.idioma" = "Idioma";
+"btn.guia" = "Guia";
+"btn.porque" = "Por quê?";
+"btn.creditos" = "Créditos";
+"btn.cerrar" = "Fechar";
+"btn.cancelar" = "Cancelar";
+"btn.empezar" = "Começar";
+"btn.otravez" = "Verificar de novo";
+"btn.buscar" = "Procurar o iPhone agora";
+"btn.descargar" = "Baixar o iOS";
+"btn.reintentardesc" = "Tentar o download de novo";
+"btn.problemaios" = "Há um problema com o iOS; veja o aviso.";
+"btn.reintentar200" = "Tentar de novo com +200";
+"btn.rescatar" = "Resgatar meu iPhone…";
+"btn.trabajando" = "Trabalhando… não toque no iPhone";
+"btn.yaarranco" = "Já ligou e está tudo bem";
+"btn.contarsenne" = "Contar ao Senne que funcionou";
+"log.titulo" = "O que estou fazendo";
+"p.gb" = "%1$@ de %2$@ GB";
+"p.comprobando" = "Verificando…";
+
+/* Texto tranquilizador de cada paso */
+"t.0" = "Estou apenas lendo os registros que o Finder deixou. Não toco no seu iPhone.";
+"t.1" = "O modo de recuperação NÃO apaga nada. É como deixar o iPhone esperando na porta enquanto o conserto não chega.";
+"t.2" = "É o mesmo iOS que a Apple oferece a você. Eu o baixo direto da Apple e confiro se chegou inteiro. Se a conexão cair, continuo de onde parei.";
+"t.3" = "Eu aviso o guarda da casa de que o sistema é um pouco maior. Assim ele faz uma faxina e o sistema de verdade passa a caber.";
+"t.rescate" = "Suas coisas estão no andar de baixo e não são tocadas. Se algo falhar, o iPhone fica como estava e dá para tentar de novo.";
+"t.rescate.en" = "Suas coisas estão lá embaixo, em segurança. Eu só troco o andar de cima. Não toque no iPhone nem no cabo.";
+"t.5" = "Uma barra lenta é normal: o iPhone está preparando seus dados para o novo iOS. Pode levar de 10 a 30 minutos. Não toque em nada.";
+"t.terminado" = "Pronto! Seu iPhone voltou com todas as suas coisas. Agora libere de 10 a 15 GB em Ajustes → Geral → Armazenamento do iPhone e faça um backup.";
+
+/* Confirmación */
+"conf.titulo" = "Vou ATUALIZAR o seu iPhone, sem apagar nada";
+"conf.texto" = "Número do conserto: %@. Vai levar uns 10 a 20 minutos. Não toque no iPhone nem no cabo até terminar.\n\nSe o programa chegar a anunciar que vai apagar, eu mesmo o interrompo.";
+"conf.campo" = "Escreva SIM para começar";
+
+/* Avisos naranja del panel */
+"a.sinlogs" = "Não encontro registros de uma atualização que falhou. Tente «Atualizar» uma vez no Finder (com o iPhone em recuperação) e aperte «Verificar de novo» outra vez.";
+"a.otroerror" = "Seu erro parece ser outro. Este conserto NÃO serve para ele, então não continue.";
+"a.noveo" = "Ainda não vejo nenhum iPhone em modo de recuperação. Conecte-o direto ao Mac com o cabo e siga o desenho.";
+"a.noveo2" = "Não vejo o iPhone em modo de recuperação. Conecte-o, coloque-o em recuperação e aperte de novo.";
+"a.faltasitio" = "Ainda falta espaço. Você pode tentar de novo com um número 200 maior. O iPhone continua em recuperação, com os seus dados.";
+"a.viejo" = "O iOS baixado é mais antigo do que o que falhou. É preciso a mesma versão ou uma mais nova.";
+"a.libtatsu" = "Problema com uma peça interna (libtatsu). Baixe o app de novo.";
+"a.otromotivo" = "Falhou por outro motivo (código %@). Seus dados não foram apagados. Você pode tentar de novo.";
+
+/* Registro en vivo */
+"l.hola" = "Olá. Vou ajudar você a atualizar o seu iPhone sem apagar nada.";
+"l.hola.sim" = "MODO SIMULAÇÃO: nada disto toca em um iPhone de verdade.";
+"l.empiezo" = "Começo olhando, só olhando, os registros que o Finder deixou. Não toco em nada.";
+"l.sinlogs" = "Não encontro registros em «iPhone Updater Logs».";
+"l.otro.visto" = "Os registros do Finder não têm «Failed preallocation due to space».";
+"l.otro.nada" = "Os registros do Finder não falam de falta de espaço.";
+"l.escaso" = "Encontrei «Failed preallocation due to space»: é EXATAMENTE este problema. 🎯";
+"l.finder" = "O Finder precisava de %1$@ MB e havia %2$@ MB livres.";
+"l.build" = "A atualização que falhou era a versão (build) %@.";
+"l.ponrecup" = "Agora coloque o iPhone em modo de recuperação (veja o desenho). Eu o procuro sozinho a cada poucos segundos.";
+"l.encontrado" = "iPhone encontrado em modo %1$@: %2$@. (O número de série eu mantenho oculto.)";
+"l.siguiente" = "Próximo passo: baixar da Apple o iOS correto para o seu modelo (uns 13 GB).";
+"l.noveo" = "Ainda não vejo o iPhone. Conecte-o e faça assim: aumentar volume · diminuir volume · segurar o botão lateral até ver o cabo e o computador.";
+"l.sigonoveo" = "Continuo sem ver o iPhone. Tente outro cabo ou outra porta, direto no Mac (sem hub).";
+"l.preguntoapple" = "Perguntando à Apple (via ipsw.me) qual iOS ela assina para %@…";
+"l.yanofirma" = "A Apple já não assina %1$@; uso %2$@ (%3$@), que é mais nova.";
+"l.yaestaba" = "Já estava baixado e verificado: %@.";
+"l.descargando" = "Baixando o iOS %1$@ (%2$@) da Apple: %3$@ MB. Se a conexão cair, aperte de novo e eu continuo de onde parei.";
+"l.descargado" = "Baixado e verificado. ✅";
+"l.verificando" = "Conferindo se o arquivo não está danificado (impressão digital SHA1)…";
+"l.sim.descarga" = "(Simulação) Fingindo baixar %@ MB…";
+"l.compruebo.opcion" = "Conferindo se este iOS traz a opção «atualizar sem apagar»…";
+"l.tieneopcion" = "O iOS tem a opção «atualizar sem apagar». ✅";
+"l.tamreal" = "Tamanho real do sistema (%1$@): %2$@ MiB";
+"calc.conlog" = "O Finder declarou %1$@ MiB, precisava de %2$@ MB e havia %3$@ MB livres (folga de %4$@ MB).";
+"calc.sinlog" = "Sem registro do Finder: uso +748 MiB, o que recuperou o primeiro iPhone do Senne.";
+"l.numero" = "Número do conserto: %@. É o que digo ao «guarda» do iPhone para que ele faça a faxina.";
+"l.todolisto" = "Tudo pronto. Quando quiser, aperte «Resgatar meu iPhone». Vou pedir que você escreva SIM.";
+"l.listo" = "iPhone pronto em modo %@.";
+"l.cerrefinder" = "Fechei a janela de atualização do Finder (para ele não atrapalhar).";
+"l.proteccion" = "Proteção: os argumentos não são seguros. Não executo nada.";
+"l.empiezo.rescate" = "Começando. Não toque no iPhone nem no cabo (uns 10 a 20 minutos). Registro completo guardado no seu Mac (contém dados do seu iPhone: não o compartilhe).";
+"l.borrar" = "O programa ia APAGAR! Eu o parei antes de começar. Seus dados continuam aí.";
+"l.sinborrar" = "Confirmado: vai atualizar SEM apagar os seus dados. ✅";
+"l.arreglo" = "Conserto ativo: avisei o guarda de que o sistema é um pouco maior.";
+"l.momento" = "MOMENTO-CHAVE SUPERADO! O iPhone aceitou reservar o espaço. Enviando o sistema…";
+"l.faltasitio" = "Aviso do iPhone: ainda falta espaço.";
+"l.sellando" = "Selando o sistema… falta pouco.";
+"l.macfin" = "O Mac terminou a sua parte. 🎉";
+"l.avisoraw" = "Aviso: %@";
+"l.terminobien" = "A atualização terminou bem. Agora o iPhone liga sozinho: maçã com uma barra lenta (10 a 30 min). NÃO toque nele.";
+"l.raw" = "  %@";
+"l.reintento" = "Tentando de novo com o número %@.";
+"l.enhorabuena" = "Parabéns! Seu iPhone voltou. 🎉";
+
+/* Errores */
+"err.generico" = "Erro";
+"err.modelo" = "Modelo inválido.";
+"err.ipswme" = "Resposta estranha do ipsw.me.";
+"err.nofirma" = "A Apple não assina nenhum iOS para este iPhone neste momento.";
+"err.ipswme.datos" = "Dados incompletos do ipsw.me.";
+"err.noapple" = "O download não vem de um servidor da Apple (%@). Paro por segurança.";
+"err.manifest" = "Não consegui ler o arquivo do iOS (BuildManifest). Será que está danificado?";
+"err.sincryptex" = "Este iOS não traz a opção «atualizar sem apagar» com cryptex. O conserto não serve aqui.";
+"err.varios" = "Este iOS cobre vários modelos e não tenho registro do Finder para escolher. Tente «Atualizar» uma vez no Finder e repita.";
+"err.espacio" = "Falta espaço no Mac: preciso de %1$@ GB e há %2$@ GB livres. Se o Mac estiver se atualizando, cancele essa atualização.";
+"err.sha" = "O arquivo baixado está danificado (a impressão digital não confere). Eu o apaguei; aperte de novo para baixá-lo outra vez.";
+"err.curl" = "O download foi interrompido (código %@). Aperte «Baixar» de novo e ele continuará de onde parou.";
+"err.otro" = "Não consegui fazer isso: %@";
+"err.sinopcion" = "Este iOS não traz a opção de atualizar sem apagar. Paro aqui.";
+
+/* Notificaciones del Mac */
+"n.descarga.t" = "Download concluído";
+"n.descarga.c" = "O iOS já está no seu Mac e verificado. Volte ao app para continuar.";
+"n.momento.t" = "Momento-chave superado!";
+"n.momento.c" = "O iPhone aceitou o sistema novo. O pior já passou. Não toque nele.";
+"n.fin.t" = "Resgate concluído!";
+"n.fin.c" = "Seu iPhone está reiniciando. Espere ele pedir o código; não toque nele.";
+
+/* Cerrar la app durante el rescate */
+"q.titulo" = "O resgate está em andamento";
+"q.texto" = "Se você fechar agora, ele será interrompido no meio. É melhor esperar terminar.";
+"q.seguir" = "Continuar o resgate";
+"q.cerrar" = "Fechar mesmo assim";
+
+/* Guía */
+"guia.titulo" = "Guia";
+"guia.intro" = "Este guia explica o método passo a passo. O app faz por você os passos do «Terminal» que aparecem nele.";
+
+/* ¿Por qué? */
+"porque.titulo" = "Por que isso acontece?";
+"porque.1" = "Seu iPhone é uma casa de dois andares. Em cima fica o sistema (iOS). Embaixo, as suas coisas: fotos, mensagens, apps.";
+"porque.2" = "Antes de atualizar, um «guarda» confere se o sistema novo cabe. Como estava muito justo, ele diz: «cabe».";
+"porque.3" = "O iPhone tira o sistema antigo. Mas, ao reservar lugar para o novo, o armazenamento tem uma regra que o guarda não conhece: não dá para reservar de uma vez mais de ~84 % do espaço livre. Não entra… e em cima fica vazio. Embaixo, nada foi tocado.";
+"porque.4" = "O conserto diz ao guarda que o sistema é um pouco maior do que realmente é. Então o guarda diz «não cabe» e o iPhone faz a faxina dos temporários (caches, registros…). Com esse espaço aberto, o sistema de verdade passa a entrar.";
+"porque.riesgo" = "**Risco:** a faxina pode apagar caches e coisas que são baixadas de novo. No caso real não faltou nada. Se falhar, o iPhone fica como estava (em recuperação, com os seus dados) e dá para tentar de novo.";
+"porque.video" = "Em breve: um vídeo que explica isso aqui mesmo.";
+
+/* Créditos */
+"cred.titulo" = "Créditos";
+"cred.hecho" = "Feito por Jesús com Claude";
+"cred.senne" = "Criador do conserto que torna tudo isso possível: o patch que declara um tamanho maior do sistema para que o iPhone faça a faxina. Domínio público (CC0).";
+"cred.igor" = "O guia dele explicou o problema e deu o código de erro (06A6.0064) que nos levou ao conserto do Senne. Sem esse guia não teríamos chegado lá.";
+"cred.lib.nombre" = "A equipe do libimobiledevice";
+"cred.lib" = "Nikias Bassen, Martin Szulecki, Joshua Hill e todas as pessoas que criaram idevicerestore, libirecovery, libimobiledevice, libusbmuxd, libplist, libtatsu e libimobiledevice-glue: anos de trabalho voluntário que permitem restaurar iPhones sem o iTunes.";
+"cred.lic.titulo" = "Licenças e código-fonte";
+"cred.mit" = "«J7 Rescue» (o código original deste app) tem licença MIT: é gratuito, pode ser copiado e modificado, e é oferecido sem garantia.";
+"cred.lic.texto" = "Este app leva dentro o idevicerestore (LGPL 2.1 ou posterior) com o patch do Senne, e as bibliotecas libirecovery, libimobiledevice, libusbmuxd, libimobiledevice-glue, libplist e libtatsu (LGPL 2.1), além de OpenSSL (Apache-2.0), libzip (BSD-3), xz/liblzma (domínio público/0BSD) e zstd (BSD). Elas vão como arquivos separados dentro do app (Contents/Frameworks), então você pode substituí-las. O código-fonte exato, o patch e o modo de reconstruí-lo estão na pasta CODIGO_FUENTE do .dmg e nos links abaixo. Sem nenhuma garantia.";
+"cred.link.parche" = "O conserto do Senne (patch CC0)";
+"cred.ver" = "Ver avisos de licenças";
+"cred.carpeta" = "Abrir pasta de licenças";
+
+"l.noveo2" = "Não vejo o iPhone. Não toquei em nada.";

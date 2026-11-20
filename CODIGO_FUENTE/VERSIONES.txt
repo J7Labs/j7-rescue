@@ -1,0 +1,12 @@
+libirecovery libirecovery 1.4.0
+libimobiledevice libimobiledevice 1.4.0_3
+libusbmuxd libusbmuxd 2.1.1_1
+libimobiledevice-glue libimobiledevice-glue 1.3.3
+libplist libplist 2.8.1
+libzip libzip 1.12.1
+xz xz 5.8.4
+zstd zstd 1.5.7_1
+openssl@4 openssl@4 4.1.0
+idevicerestore commit 60192e97f87d1bbab5c493684e0a245b0966363f + parche 0001 de Senne (ya aplicado en el .tar.gz)
+libtatsu commit b8d518a7d188c8c98dd9e6debb855bb2809699ee
+(Las librerías de arriba están sin modificar, tal cual las publica Homebrew; código en https://github.com/libimobiledevice/<nombre>)

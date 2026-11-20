@@ -1,0 +1,8 @@
+CÓDIGO FUENTE de «Rescate iPhone» (J7 Labs)
+
+- idevicerestore-60192e9-parcheado.tar.gz  -> idevicerestore con el parche de Senne ya aplicado (LGPL)
+- 0001-restore-Allow-overriding-...patch   -> el parche de Senne por separado (CC0)
+- libtatsu-b8d518a.tar.gz                  -> libtatsu (LGPL 2.1)
+- reproducir_binarios.sh                   -> cómo reconstruirlos
+- VERSIONES.txt                            -> versiones del resto de librerías (sin modificar)
+- J7-Rescue-app-fuente.tar.gz         -> el código de la propia app (SwiftUI) y su script de construcción

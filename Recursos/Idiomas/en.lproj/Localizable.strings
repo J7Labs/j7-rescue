@@ -1,0 +1,177 @@
+/* J7 Rescue — English texts. The %@ are data filled in by the app; don't touch them. */
+
+/* Steps */
+"paso.0" = "Check your case";
+"paso.1" = "Recovery mode";
+"paso.2" = "Download iOS";
+"paso.3" = "Work out the number";
+"paso.4" = "Rescue";
+"paso.5" = "First start-up";
+
+/* Recovery mode drawing */
+"rec.1" = "1 · Press and release Volume UP";
+"rec.2" = "2 · Press and release Volume DOWN";
+"rec.3" = "3 · HOLD the side button (even when the apple appears)";
+"rec.4" = "Done! Cable and computer";
+
+/* House drawing */
+"casa.abajo" = "Your photos and things 🔒";
+"casa.sistemanuevo" = "New system (iOS)";
+"casa.arriba.0" = "iOS (the system)";
+"casa.arriba.1" = "Old iOS ✔ “fits”";
+"casa.arriba.2" = "empty… the new one doesn't fit";
+"casa.arriba.3" = "New iOS ✔";
+"casa.numero" = "number %@";
+
+/* Window */
+"sim.banner" = "SIMULATION MODE · none of this touches a real iPhone";
+"btn.idioma" = "Language";
+"btn.guia" = "Guide";
+"btn.porque" = "Why?";
+"btn.creditos" = "Credits";
+"btn.cerrar" = "Close";
+"btn.cancelar" = "Cancel";
+"btn.empezar" = "Start";
+"btn.otravez" = "Check again";
+"btn.buscar" = "Look for the iPhone now";
+"btn.descargar" = "Download iOS";
+"btn.reintentardesc" = "Retry the download";
+"btn.problemaios" = "There is a problem with the iOS; see the notice.";
+"btn.reintentar200" = "Retry with +200";
+"btn.rescatar" = "Rescue my iPhone…";
+"btn.trabajando" = "Working… don't touch the iPhone";
+"btn.yaarranco" = "It has started up and everything is fine";
+"btn.contarsenne" = "Tell Senne it worked";
+"log.titulo" = "What I'm doing";
+"p.gb" = "%1$@ of %2$@ GB";
+"p.comprobando" = "Checking…";
+
+/* Reassuring text for each step */
+"t.0" = "I'm only reading the logs Finder left behind. I'm not touching your iPhone.";
+"t.1" = "Recovery mode does NOT erase anything. It's like leaving the iPhone waiting at the door while the fix arrives.";
+"t.2" = "It's the same iOS Apple offers you. I download it straight from Apple and check that it arrives intact. If it gets cut off, I pick up where I left off.";
+"t.3" = "I tell the guard of the house that the system is a little bigger. That way it tidies up and the real system fits.";
+"t.rescate" = "Your things are on the lower floor and won't be touched. If anything fails, the iPhone stays as it was and you can try again.";
+"t.rescate.en" = "Your things are downstairs, safe. I'm only changing the upper floor. Don't touch the iPhone or the cable.";
+"t.5" = "A slow bar is normal: the iPhone is preparing your data for the new iOS. It can take 10–30 minutes. Don't touch anything.";
+"t.terminado" = "Done! Your iPhone is back with all its things. Now free up 10–15 GB in Settings → General → iPhone Storage and make a backup.";
+
+/* Confirmation */
+"conf.titulo" = "I'm going to UPDATE your iPhone, without erasing anything";
+"conf.texto" = "Fix number: %@. It will take about 10–20 minutes. Don't touch the iPhone or the cable until it finishes.\n\nIf the program ever announced that it was going to erase, I'll stop it myself.";
+"conf.campo" = "Type YES to begin";
+
+/* Orange notices in the panel */
+"a.sinlogs" = "I can't find logs of a failed update. Try “Update” once in Finder (with the iPhone in recovery mode) and click “Check again” again.";
+"a.otroerror" = "Your error seems to be a different one. This fix does NOT work for it, so don't go on.";
+"a.noveo" = "I don't see any iPhone in recovery mode yet. Connect it straight to the Mac with the cable and follow the drawing.";
+"a.noveo2" = "I don't see the iPhone in recovery mode. Connect it, put it in recovery mode and click again.";
+"a.faltasitio" = "There's still not enough room. You can retry with a number 200 higher. The iPhone is still in recovery mode, with your data.";
+"a.viejo" = "The downloaded iOS is older than the one that failed. It needs to be the same version or a newer one.";
+"a.libtatsu" = "Problem with an internal component (libtatsu). Download the app again.";
+"a.otromotivo" = "It failed for another reason (code %@). Your data has not been erased. You can try again.";
+
+/* Live log */
+"l.hola" = "Hello. I'm going to help you update your iPhone without erasing anything.";
+"l.hola.sim" = "SIMULATION MODE: none of this touches a real iPhone.";
+"l.empiezo" = "I'm starting by looking, only looking, at the logs Finder left behind. I'm not touching anything.";
+"l.sinlogs" = "I can't find any logs in “iPhone Updater Logs”.";
+"l.otro.visto" = "Finder's logs don't contain “Failed preallocation due to space”.";
+"l.otro.nada" = "Finder's logs don't mention a lack of space.";
+"l.escaso" = "Found “Failed preallocation due to space”: it's EXACTLY this problem. 🎯";
+"l.finder" = "Finder needed %1$@ MB and there were %2$@ MB free.";
+"l.build" = "The update that failed was version (build) %@.";
+"l.ponrecup" = "Now put the iPhone in recovery mode (see the drawing). I'll look for it on my own every few seconds.";
+"l.encontrado" = "iPhone found in %1$@ mode: %2$@. (I'm keeping the serial number hidden.)";
+"l.siguiente" = "Next: download from Apple the right iOS for your model (about 13 GB).";
+"l.noveo" = "I don't see the iPhone yet. Connect it and set it up like this: volume up · volume down · hold the side button until you see the cable and the computer.";
+"l.sigonoveo" = "I still can't see the iPhone. Try another cable or another port, straight into the Mac (no hub).";
+"l.preguntoapple" = "Asking Apple (via ipsw.me) which iOS it signs for %@…";
+"l.yanofirma" = "Apple no longer signs %1$@; I'm using %2$@ (%3$@), which is newer.";
+"l.yaestaba" = "It was already downloaded and checked: %@.";
+"l.descargando" = "Downloading iOS %1$@ (%2$@) from Apple: %3$@ MB. If it gets cut off, click again and I'll pick up where I left off.";
+"l.descargado" = "Downloaded and checked. ✅";
+"l.verificando" = "Checking that the file isn't damaged (SHA1 fingerprint)…";
+"l.sim.descarga" = "(Simulation) Pretending to download %@ MB…";
+"l.compruebo.opcion" = "Checking that this iOS has the “update without erasing” option…";
+"l.tieneopcion" = "The iOS has the “update without erasing” option. ✅";
+"l.tamreal" = "Real size of the system (%1$@): %2$@ MiB";
+"calc.conlog" = "Finder declared %1$@ MiB, needed %2$@ MB and there were %3$@ MB free (margin %4$@ MB).";
+"calc.sinlog" = "No Finder log: I'm using +748 MiB, which is what recovered Senne's first iPhone.";
+"l.numero" = "Fix number: %@. It's what I tell the iPhone's “guard” so that it tidies up.";
+"l.todolisto" = "All set. Whenever you like, click “Rescue my iPhone”. I'll ask you to type YES.";
+"l.listo" = "iPhone ready in %@ mode.";
+"l.cerrefinder" = "Closed Finder's update window (so they don't fight).";
+"l.proteccion" = "Protection: the arguments are not safe. I'm not launching anything.";
+"l.empiezo.rescate" = "Starting. Don't touch the iPhone or the cable (about 10–20 minutes). Full log saved on your Mac (it contains data from your iPhone: don't share it).";
+"l.borrar" = "The program was going to ERASE! I stopped it before starting. Your data is still there.";
+"l.sinborrar" = "Confirmed: it will update WITHOUT erasing your data. ✅";
+"l.arreglo" = "Fix active: I've told the guard that the system is a little bigger.";
+"l.momento" = "KEY MOMENT PASSED! The iPhone agreed to reserve the space. Sending the system…";
+"l.faltasitio" = "Notice from the iPhone: still not enough room.";
+"l.sellando" = "Sealing the system… almost there.";
+"l.macfin" = "The Mac has finished its part. 🎉";
+"l.avisoraw" = "Notice: %@";
+"l.terminobien" = "The update finished fine. Now the iPhone starts up on its own: an apple with a slow bar (10–30 min). DON'T touch it.";
+"l.raw" = "  %@";
+"l.reintento" = "Retrying with number %@.";
+"l.enhorabuena" = "Congratulations! Your iPhone is back. 🎉";
+
+/* Errors */
+"err.generico" = "Error";
+"err.modelo" = "Invalid model.";
+"err.ipswme" = "Strange response from ipsw.me.";
+"err.nofirma" = "Apple isn't currently signing any iOS for this iPhone.";
+"err.ipswme.datos" = "Incomplete data from ipsw.me.";
+"err.noapple" = "The download doesn't come from an Apple server (%@). I'm stopping for safety.";
+"err.manifest" = "I couldn't read the iOS file (BuildManifest). Is it damaged?";
+"err.sincryptex" = "This iOS doesn't have the “update without erasing” option with cryptex. The fix doesn't work here.";
+"err.varios" = "This iOS covers several models and I have no Finder log to choose from. Try “Update” once in Finder and repeat.";
+"err.espacio" = "Not enough space on the Mac: I need %1$@ GB and there are %2$@ GB free. If the Mac is updating, cancel that update.";
+"err.sha" = "The downloaded file is damaged (the fingerprint doesn't match). I've deleted it; click again to download it again.";
+"err.curl" = "The download was cut off (code %@). Click “Download” again and it will pick up where it left off.";
+"err.otro" = "I couldn't do it: %@";
+"err.sinopcion" = "This iOS doesn't have the option to update without erasing. I'm stopping.";
+
+/* Mac notifications */
+"n.descarga.t" = "Download finished";
+"n.descarga.c" = "The iOS is now on your Mac and checked. Go back to the app to continue.";
+"n.momento.t" = "Key moment passed!";
+"n.momento.c" = "The iPhone accepted the new system. The worst is over. Don't touch it.";
+"n.fin.t" = "Rescue finished!";
+"n.fin.c" = "Your iPhone is restarting. Wait for it to ask for the passcode; don't touch it.";
+
+/* Closing the app during the rescue */
+"q.titulo" = "The rescue is in progress";
+"q.texto" = "If you close now, it will be interrupted halfway. It's better to wait until it finishes.";
+"q.seguir" = "Continue the rescue";
+"q.cerrar" = "Close anyway";
+
+/* Guide */
+"guia.titulo" = "Guide";
+"guia.intro" = "This guide explains the method step by step. The app does for you the “Terminal” steps that appear in it.";
+
+/* Why? */
+"porque.titulo" = "Why does this happen?";
+"porque.1" = "Your iPhone is a two-storey house. Upstairs is the system (iOS). Downstairs, your things: photos, messages, apps.";
+"porque.2" = "Before updating, a “guard” checks whether the new system fits. Since you were really tight on space, it says: “it fits”.";
+"porque.3" = "The iPhone removes the old system. But when reserving room for the new one, the storage has a rule the guard doesn't know about: you can't reserve more than ~84% of the free space all at once. It doesn't fit… and upstairs is left empty. Downstairs nothing has been touched.";
+"porque.4" = "The fix tells the guard that the system is a little bigger than it really is. Then the guard says “it doesn't fit” and the iPhone tidies up its temporary files (caches, logs…). With that gap, the real system does fit.";
+"porque.riesgo" = "**Risk:** the clean-up may delete caches and things that download again. In the real case nothing was missing. If it fails, the iPhone stays as it was (in recovery mode, with your data) and you can try again.";
+"porque.video" = "Coming soon: a video that explains it right here.";
+
+/* Credits */
+"cred.titulo" = "Credits";
+"cred.hecho" = "Made by Jesús with Claude";
+"cred.senne" = "Creator of the fix that makes all this possible: the patch that declares a larger system size so the iPhone tidies up. Public domain (CC0).";
+"cred.igor" = "Their guide explained the problem and gave the error code (06A6.0064) that led us to Senne's fix. Without it we wouldn't have got there.";
+"cred.lib.nombre" = "The libimobiledevice team";
+"cred.lib" = "Nikias Bassen, Martin Szulecki, Joshua Hill and everyone who has created idevicerestore, libirecovery, libimobiledevice, libusbmuxd, libplist, libtatsu and libimobiledevice-glue: years of volunteer work that make it possible to restore iPhones without iTunes.";
+"cred.lic.titulo" = "Licenses and source code";
+"cred.mit" = "“J7 Rescue” (this app's original code) is licensed under the MIT license: it's free, it can be copied and changed, and it's offered without warranty.";
+"cred.lic.texto" = "This app contains idevicerestore (LGPL 2.1 or later) with Senne's patch, and the libraries libirecovery, libimobiledevice, libusbmuxd, libimobiledevice-glue, libplist and libtatsu (LGPL 2.1), as well as OpenSSL (Apache-2.0), libzip (BSD-3), xz/liblzma (public domain/0BSD) and zstd (BSD). They come as separate files inside the app (Contents/Frameworks), so you can replace them. The exact source code, the patch and how to rebuild it are in the CODIGO_FUENTE folder of the .dmg and in the links below. Without any warranty.";
+"cred.link.parche" = "Senne's fix (CC0 patch)";
+"cred.ver" = "View license notices";
+"cred.carpeta" = "Open licenses folder";
+
+"l.noveo2" = "I don't see the iPhone. I haven't touched anything.";

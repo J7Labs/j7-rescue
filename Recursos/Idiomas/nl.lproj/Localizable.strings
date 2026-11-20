@@ -1,0 +1,177 @@
+/* J7 Rescue — teksten in het Nederlands. De %@ zijn gegevens die de app invult; laat ze staan. */
+
+/* Stappen */
+"paso.0" = "Jouw situatie checken";
+"paso.1" = "Herstelmodus";
+"paso.2" = "iOS downloaden";
+"paso.3" = "Het getal berekenen";
+"paso.4" = "Redden";
+"paso.5" = "Eerste keer opstarten";
+
+/* Tekening van de herstelmodus */
+"rec.1" = "1 · Druk op de knop VOLUME OMHOOG en laat los";
+"rec.2" = "2 · Druk op de knop VOLUME OMLAAG en laat los";
+"rec.3" = "3 · HOUD de zijknop ingedrukt (ook als het appeltje verschijnt)";
+"rec.4" = "Klaar! Kabel en computer";
+
+/* Tekening van het huis */
+"casa.abajo" = "Jouw foto's en spullen 🔒";
+"casa.sistemanuevo" = "Nieuw systeem (iOS)";
+"casa.arriba.0" = "iOS (het systeem)";
+"casa.arriba.1" = "Oud iOS ✔ «past»";
+"casa.arriba.2" = "leeg… het nieuwe past er niet in";
+"casa.arriba.3" = "Nieuw iOS ✔";
+"casa.numero" = "getal %@";
+
+/* Venster */
+"sim.banner" = "SIMULATIEMODUS · niets hiervan raakt een echte iPhone aan";
+"btn.idioma" = "Taal";
+"btn.guia" = "Gids";
+"btn.porque" = "Waarom?";
+"btn.creditos" = "Credits";
+"btn.cerrar" = "Sluiten";
+"btn.cancelar" = "Annuleer";
+"btn.empezar" = "Beginnen";
+"btn.otravez" = "Opnieuw checken";
+"btn.buscar" = "De iPhone nu zoeken";
+"btn.descargar" = "iOS downloaden";
+"btn.reintentardesc" = "Download opnieuw proberen";
+"btn.problemaios" = "Er is een probleem met het iOS; lees de melding.";
+"btn.reintentar200" = "Opnieuw proberen met +200";
+"btn.rescatar" = "Mijn iPhone redden…";
+"btn.trabajando" = "Bezig… raak de iPhone niet aan";
+"btn.yaarranco" = "Hij is opgestart en alles is goed";
+"btn.contarsenne" = "Aan Senne vertellen dat het gelukt is";
+"log.titulo" = "Wat ik aan het doen ben";
+"p.gb" = "%1$@ van %2$@ GB";
+"p.comprobando" = "Bezig met checken…";
+
+/* Geruststellende tekst bij elke stap */
+"t.0" = "Ik lees alleen de logbestanden die Finder heeft achtergelaten. Ik raak je iPhone niet aan.";
+"t.1" = "De herstelmodus wist NIETS. Het is alsof je de iPhone voor de deur laat wachten tot de reparatie er is.";
+"t.2" = "Het is hetzelfde iOS dat Apple je aanbiedt. Ik download het rechtstreeks van Apple en check of het compleet binnenkomt. Als de download wegvalt, ga ik verder waar ik gebleven was.";
+"t.3" = "Ik vertel de bewaker van het huis dat het systeem iets groter is. Zo ruimt hij op en past het echte systeem er straks wel in.";
+"t.rescate" = "Je spullen staan op de verdieping beneden en worden niet aangeraakt. Als er iets misgaat, blijft de iPhone zoals hij was en kun je het opnieuw proberen.";
+"t.rescate.en" = "Je spullen staan beneden, veilig. Ik verander alleen de verdieping boven. Raak de iPhone en de kabel niet aan.";
+"t.5" = "Een trage balk is normaal: de iPhone maakt je gegevens klaar voor het nieuwe iOS. Dat kan 10–30 minuten duren. Raak niets aan.";
+"t.terminado" = "Klaar! Je iPhone is terug, met al je spullen. Maak nu 10–15 GB vrij via Instellingen → Algemeen → iPhone-opslag en maak een reservekopie.";
+
+/* Bevestiging */
+"conf.titulo" = "Ik ga je iPhone UPDATEN, zonder iets te wissen";
+"conf.texto" = "Getal voor de reparatie: %@. Het duurt ongeveer 10–20 minuten. Raak de iPhone en de kabel niet aan tot het klaar is.\n\nAls het programma ooit zou melden dat het gaat wissen, stop ik het zelf meteen.";
+"conf.campo" = "Typ JA om te beginnen";
+
+/* Oranje meldingen in het paneel */
+"a.sinlogs" = "Ik vind geen logbestanden van een mislukte update. Probeer één keer «Update» in Finder (met de iPhone in herstelmodus) en klik daarna weer op «Opnieuw checken».";
+"a.otroerror" = "Jouw fout lijkt een andere te zijn. Deze reparatie helpt hier NIET bij, ga dus niet verder.";
+"a.noveo" = "Ik zie nog geen iPhone in herstelmodus. Sluit hem met de kabel direct op de Mac aan en volg de tekening.";
+"a.noveo2" = "Ik zie de iPhone niet in herstelmodus. Sluit hem aan, zet hem in herstelmodus en klik opnieuw.";
+"a.faltasitio" = "Er is nog steeds te weinig ruimte. Je kunt het opnieuw proberen met een getal dat 200 hoger is. De iPhone staat nog in herstelmodus, met je gegevens.";
+"a.viejo" = "Het gedownloade iOS is ouder dan het iOS dat mislukte. Het moet dezelfde of een nieuwere versie zijn.";
+"a.libtatsu" = "Probleem met een intern onderdeel (libtatsu). Download de app opnieuw.";
+"a.otromotivo" = "Het is om een andere reden mislukt (code %@). Je gegevens zijn niet gewist. Je kunt het opnieuw proberen.";
+
+/* Live logboek */
+"l.hola" = "Hoi. Ik ga je helpen je iPhone te updaten zonder iets te wissen.";
+"l.hola.sim" = "SIMULATIEMODUS: niets hiervan raakt een echte iPhone aan.";
+"l.empiezo" = "Ik begin met kijken, alleen maar kijken, naar de logbestanden die Finder heeft achtergelaten. Ik raak niets aan.";
+"l.sinlogs" = "Ik vind geen logbestanden in «iPhone Updater Logs».";
+"l.otro.visto" = "De logbestanden van Finder bevatten geen «Failed preallocation due to space».";
+"l.otro.nada" = "De logbestanden van Finder zeggen niets over te weinig ruimte.";
+"l.escaso" = "«Failed preallocation due to space» gevonden: dit is PRECIES dit probleem. 🎯";
+"l.finder" = "Finder had %1$@ MB nodig en er was %2$@ MB vrij.";
+"l.build" = "De update die mislukte was versie (build) %@.";
+"l.ponrecup" = "Zet nu de iPhone in herstelmodus (kijk naar de tekening). Ik zoek hem zelf om de paar seconden.";
+"l.encontrado" = "iPhone gevonden in modus %1$@: %2$@. (Het serienummer houd ik verborgen.)";
+"l.siguiente" = "Volgende stap: bij Apple het juiste iOS voor jouw model downloaden (ongeveer 13 GB).";
+"l.noveo" = "Ik zie de iPhone nog niet. Sluit hem aan en doe dit: volume omhoog · volume omlaag · zijknop ingedrukt houden tot je de kabel en de computer ziet.";
+"l.sigonoveo" = "Ik zie de iPhone nog steeds niet. Probeer een andere kabel of een andere poort, direct op de Mac (zonder hub).";
+"l.preguntoapple" = "Ik vraag aan Apple (via ipsw.me) welk iOS er voor %@ wordt ondertekend…";
+"l.yanofirma" = "Apple ondertekent %1$@ niet meer; ik gebruik %2$@ (%3$@), dat nieuwer is.";
+"l.yaestaba" = "Was al gedownload en gecheckt: %@.";
+"l.descargando" = "iOS %1$@ (%2$@) downloaden van Apple: %3$@ MB. Als de download wegvalt, klik je opnieuw en ga ik verder waar ik gebleven was.";
+"l.descargado" = "Gedownload en gecheckt. ✅";
+"l.verificando" = "Ik check of het bestand niet beschadigd is (SHA1-vingerafdruk)…";
+"l.sim.descarga" = "(Simulatie) Ik doe alsof ik %@ MB download…";
+"l.compruebo.opcion" = "Ik check of dit iOS de optie «updaten zonder te wissen» heeft…";
+"l.tieneopcion" = "Het iOS heeft de optie «updaten zonder te wissen». ✅";
+"l.tamreal" = "Echte grootte van het systeem (%1$@): %2$@ MiB";
+"calc.conlog" = "Finder gaf %1$@ MiB op, had %2$@ MB nodig en er was %3$@ MB vrij (marge %4$@ MB).";
+"calc.sinlog" = "Geen logbestand van Finder: ik gebruik +748 MiB, wat de eerste iPhone van Senne weer aan de praat kreeg.";
+"l.numero" = "Getal voor de reparatie: %@. Dat vertel ik aan de «bewaker» van de iPhone zodat hij gaat opruimen.";
+"l.todolisto" = "Alles klaar. Klik wanneer je wilt op «Mijn iPhone redden». Ik vraag je dan JA te typen.";
+"l.listo" = "iPhone klaar in modus %@.";
+"l.cerrefinder" = "Het updatevenster van Finder is gesloten (zodat ze elkaar niet in de weg zitten).";
+"l.proteccion" = "Beveiliging: de argumenten zijn niet veilig. Ik start niets.";
+"l.empiezo.rescate" = "Ik begin. Raak de iPhone en de kabel niet aan (ongeveer 10–20 minuten). Het volledige logboek is op je Mac bewaard (er staan gegevens van je iPhone in: deel het niet).";
+"l.borrar" = "Het programma stond op het punt te WISSEN! Ik heb het gestopt voordat het begon. Je gegevens zijn er nog.";
+"l.sinborrar" = "Bevestigd: het updatet ZONDER je gegevens te wissen. ✅";
+"l.arreglo" = "Reparatie actief: ik heb de bewaker verteld dat het systeem iets groter is.";
+"l.momento" = "BELANGRIJKSTE MOMENT GEHAALD! De iPhone heeft de ruimte gereserveerd. Systeem wordt verstuurd…";
+"l.faltasitio" = "Melding van de iPhone: er is nog steeds te weinig ruimte.";
+"l.sellando" = "Het systeem wordt verzegeld… bijna klaar.";
+"l.macfin" = "De Mac is klaar met zijn deel. 🎉";
+"l.avisoraw" = "Melding: %@";
+"l.terminobien" = "De update is goed afgerond. Nu start de iPhone zelf op: appeltje met een trage balk (10–30 min). Raak hem NIET aan.";
+"l.raw" = "  %@";
+"l.reintento" = "Nieuwe poging met het getal %@.";
+"l.enhorabuena" = "Gefeliciteerd! Je iPhone is terug. 🎉";
+
+/* Fouten */
+"err.generico" = "Fout";
+"err.modelo" = "Ongeldig model.";
+"err.ipswme" = "Vreemd antwoord van ipsw.me.";
+"err.nofirma" = "Apple ondertekent op dit moment geen enkel iOS voor deze iPhone.";
+"err.ipswme.datos" = "Onvolledige gegevens van ipsw.me.";
+"err.noapple" = "De download komt niet van een server van Apple (%@). Ik stop voor de veiligheid.";
+"err.manifest" = "Ik kon het iOS-bestand niet lezen (BuildManifest). Is het beschadigd?";
+"err.sincryptex" = "Dit iOS heeft niet de optie «updaten zonder te wissen» met cryptex. De reparatie werkt hier niet.";
+"err.varios" = "Dit iOS geldt voor meerdere modellen en ik heb geen logbestand van Finder om te kiezen. Probeer één keer «Update» in Finder en doe het daarna opnieuw.";
+"err.espacio" = "Er is te weinig ruimte op de Mac: ik heb %1$@ GB nodig en er is %2$@ GB vrij. Als de Mac bezig is met updaten, annuleer die update dan.";
+"err.sha" = "Het gedownloade bestand is beschadigd (de vingerafdruk klopt niet). Ik heb het gewist; klik opnieuw om het nog een keer te downloaden.";
+"err.curl" = "De download is weggevallen (code %@). Klik nog een keer op «Downloaden» en hij gaat verder waar hij gebleven was.";
+"err.otro" = "Het is niet gelukt: %@";
+"err.sinopcion" = "Dit iOS heeft de optie om te updaten zonder te wissen niet. Ik stop.";
+
+/* Meldingen van de Mac */
+"n.descarga.t" = "Download voltooid";
+"n.descarga.c" = "Het iOS staat op je Mac en is gecheckt. Ga terug naar de app om verder te gaan.";
+"n.momento.t" = "Belangrijkste moment gehaald!";
+"n.momento.c" = "De iPhone heeft het nieuwe systeem geaccepteerd. Het ergste is voorbij. Raak hem niet aan.";
+"n.fin.t" = "Redding voltooid!";
+"n.fin.c" = "Je iPhone start opnieuw op. Wacht tot hij om je code vraagt; raak hem niet aan.";
+
+/* De app sluiten tijdens de redding */
+"q.titulo" = "De redding is bezig";
+"q.texto" = "Als je nu afsluit, wordt het halverwege onderbroken. Wacht liever tot het klaar is.";
+"q.seguir" = "Doorgaan met de redding";
+"q.cerrar" = "Toch sluiten";
+
+/* Gids */
+"guia.titulo" = "Gids";
+"guia.intro" = "Deze gids legt de methode stap voor stap uit. De app doet voor jou de «Terminal»-stappen die erin staan.";
+
+/* Waarom? */
+"porque.titulo" = "Waarom gebeurt dit?";
+"porque.1" = "Je iPhone is een huis met twee verdiepingen. Boven staat het systeem (iOS). Beneden staan je spullen: foto's, berichten, apps.";
+"porque.2" = "Voordat hij update, checkt een «bewaker» of het nieuwe systeem past. Omdat je heel krap zat, zegt hij: «past».";
+"porque.3" = "De iPhone haalt het oude systeem weg. Maar bij het reserveren van ruimte voor het nieuwe systeem heeft de opslag een regel die de bewaker niet kent: je mag niet in één keer meer dan ~84 % van de vrije ruimte reserveren. Het past dus niet… en boven blijft het leeg. Beneden is niets aangeraakt.";
+"porque.4" = "De reparatie vertelt de bewaker dat het systeem iets groter is dan in werkelijkheid. Dan zegt de bewaker «past niet» en ruimt de iPhone zijn tijdelijke bestanden op (caches, logbestanden…). Met die extra ruimte past het echte systeem er wel in.";
+"porque.riesgo" = "**Risico:** bij het opruimen kunnen caches en dingen die je opnieuw kunt downloaden verdwijnen. In het echte geval ontbrak er niets. Als het misgaat, blijft de iPhone zoals hij was (in herstelmodus, met je gegevens) en kun je het opnieuw proberen.";
+"porque.video" = "Binnenkort: een video die dit hier uitlegt.";
+
+/* Credits */
+"cred.titulo" = "Credits";
+"cred.hecho" = "Gemaakt door Jesús met Claude";
+"cred.senne" = "Bedenker van de reparatie die dit allemaal mogelijk maakt: de patch die een groter systeem opgeeft zodat de iPhone gaat opruimen. Publiek domein (CC0).";
+"cred.igor" = "Zijn gids legde het probleem uit en gaf de foutcode (06A6.0064) die ons naar de reparatie van Senne bracht. Zonder zijn gids waren we er niet gekomen.";
+"cred.lib.nombre" = "Het libimobiledevice-team";
+"cred.lib" = "Nikias Bassen, Martin Szulecki, Joshua Hill en alle mensen die idevicerestore, libirecovery, libimobiledevice, libusbmuxd, libplist, libtatsu en libimobiledevice-glue hebben gemaakt: jarenlang vrijwilligerswerk waarmee je iPhones kunt herstellen zonder iTunes.";
+"cred.lic.titulo" = "Licenties en broncode";
+"cred.mit" = "«J7 Rescue» (de oorspronkelijke code van deze app) heeft een MIT-licentie: de app is gratis, mag worden gekopieerd en aangepast, en wordt aangeboden zonder garantie.";
+"cred.lic.texto" = "Deze app bevat idevicerestore (LGPL 2.1 of nieuwer) met de patch van Senne, en de bibliotheken libirecovery, libimobiledevice, libusbmuxd, libimobiledevice-glue, libplist en libtatsu (LGPL 2.1), plus OpenSSL (Apache-2.0), libzip (BSD-3), xz/liblzma (publiek domein/0BSD) en zstd (BSD). Ze zitten als losse bestanden in de app (Contents/Frameworks), dus je kunt ze vervangen. De exacte broncode, de patch en hoe je alles opnieuw bouwt staan in de map CODIGO_FUENTE op de .dmg en in de links hieronder. Zonder enige garantie.";
+"cred.link.parche" = "De reparatie van Senne (CC0-patch)";
+"cred.ver" = "Licentiemeldingen bekijken";
+"cred.carpeta" = "Licentiemap openen";
+
+"l.noveo2" = "Ik zie de iPhone niet. Ik heb niets aangeraakt.";
